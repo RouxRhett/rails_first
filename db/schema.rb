@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 2021_09_27_091733) do
     t.text "author"
     t.integer "price"
     t.text "publisher"
-    t.text "mome"
+    t.text "memo"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
