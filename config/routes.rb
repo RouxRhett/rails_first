@@ -11,6 +11,9 @@ Rails.application.routes.draw do
   post 'hello', to: 'hello#index'
   post 'hello/index'
 
+  get 'people/add'
+  post 'people/add', to: 'people#create'
+
   get 'people', to: 'people#index'
   get 'people/:id', to: 'people#show'
 end
